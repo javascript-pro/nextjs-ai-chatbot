@@ -1,9 +1,9 @@
 {
   "name": "nextjs-ai-chatbot",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev --turbo --port 1975",
     "build": "tsx lib/db/migrate && next build",
     "start": "next start",
     "lint": "next lint && biome lint --write --unsafe",
